@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{542191e9-26e8-400b-a924-0fe0f275048e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1119bde8-6df8-415c-8bee-46efe6532f7b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{80372bda-c74f-431e-80eb-960e68f748c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua\Sources">
+      <UniqueIdentifier>{a96b9378-d53c-497a-9f2c-b35030aeaf5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua\Headers">
+      <UniqueIdentifier>{6f4e4346-298d-4f64-a799-b62ab4b97e6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDetour">
+      <UniqueIdentifier>{c1af9c71-a175-46eb-b180-2b6a0d4b1b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unreal">
+      <UniqueIdentifier>{0207e792-cdf4-40dd-bb8f-ff6204347e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unreal\Headers">
+      <UniqueIdentifier>{7e2a923b-f539-407f-80c4-68f6e630ef30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unreal\Sources">
+      <UniqueIdentifier>{68ab7826-f60c-484e-96d7-61f88edf47f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hde32">
+      <UniqueIdentifier>{0650deb9-eea5-49a8-a546-f44b34c0eab5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BinaryDump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LIN2.2.1Specific.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lapi.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lauxlib.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lbaselib.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lcode.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ldblib.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ldebug.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ldo.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ldump.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lfunc.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lgc.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="linit.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="liolib.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="llex.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lmathlib.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lmem.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="loadlib.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lobject.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lopcodes.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="loslib.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lparser.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lstate.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lstring.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lstrlib.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ltable.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ltablib.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ltm.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lundump.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lvm.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="lzio.c">
+      <Filter>Lua\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="hde\hde32.cpp">
+      <Filter>hde32</Filter>
+    </ClCompile>
+    <ClCompile Include="CDetour.cpp">
+      <Filter>CDetour</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourHook.cpp">
+      <Filter>CDetour</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="entry.def">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FIFOBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LIN2.2.1Specific.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lapi.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lauxlib.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lcode.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ldebug.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ldo.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lfunc.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lgc.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="llex.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="llimits.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lmem.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lobject.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lopcodes.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lparser.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lstate.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lstring.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ltable.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ltm.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lua.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="luaconf.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lualib.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lundump.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lvm.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lzio.h">
+      <Filter>Lua\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\afxres.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\Core.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FCodec.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FConfigCacheIni.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FFeedbackContextAnsi.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FFeedbackContextWindows.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FFileManagerAnsi.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FFileManagerArc.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FFileManagerGeneric.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FFileManagerLinux.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FFileManagerPSX2.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FFileManagerPSX2CD.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FFileManagerWindows.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FMallocAnsi.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FMallocDebug.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FMallocWindows.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FOutputDeviceAnsiError.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FOutputDeviceFile.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FOutputDeviceNull.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FOutputDeviceStdout.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FOutputDeviceWindowsError.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\FRiffChunk.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UExporter.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UFactory.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnArc.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnBits.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnBuild.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnCache.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnCId.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnClass.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnCoreNative.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnCoreNet.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnCorObj.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnFile.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnGnuG.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnLinker.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnMath.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnMem.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnMsg.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnName.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnNames.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnObjBas.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnObjVer.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnPrim.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnScript.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnStack.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnTemplate.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnType.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnUnix.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnVcWin32.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="432Core\Inc\UnVcWn32SSE.h">
+      <Filter>Unreal\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\hde32.h">
+      <Filter>hde32</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\table32.h">
+      <Filter>hde32</Filter>
+    </ClInclude>
+    <ClInclude Include="CDetour.h">
+      <Filter>CDetour</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>CDetour</Filter>
+    </ClInclude>
+    <ClInclude Include="ntdll.h">
+      <Filter>CDetour</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
